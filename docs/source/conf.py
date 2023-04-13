@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'D.R.E.A.M'
+copyright = '2023, Sutherland'
+author = 'Sutherland'
 
 release = '0.1'
 version = '0.1.0'
@@ -29,7 +29,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'nature'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

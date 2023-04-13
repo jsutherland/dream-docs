@@ -1,13 +1,14 @@
-Welcome to Lumache's documentation!
-===================================
+D.R.E.A.M.
+=========================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Data . Rules . Everything . Around. Me** is an entrypoint into setting up a comprehensive 
+data platform on K8S, configuring leading OSS technologies with 
+reusable components and patterns.
+
+It provides a way to *quickly iterate* data products in a highly "use-case" lead approach.
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+how to :ref:`quickstart` the project.
 
 .. note::
 
@@ -18,5 +19,7 @@ Contents
 
 .. toctree::
 
+   k3s-single-node-install
+   deploying-key-data-platform-services
    usage
    api
