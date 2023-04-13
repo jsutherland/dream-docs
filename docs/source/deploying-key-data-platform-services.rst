@@ -15,7 +15,7 @@ Get the dream-deploy repo:
 
 .. _install dependencies on client :
 
-Install kubectl, krew & helm:
+Install various client CLI tools:
 
 .. code-block:: console
 

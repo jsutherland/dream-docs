@@ -17,6 +17,8 @@ On the node:
     sudo cat /etc/rancher/k3s/k3s.yaml
     sudo ufw allow 6443/tcp
     sudo ufw reload
+    sudo sysctl fs.inotify.max_user_watches=655360
+    sudo sysctl fs.inotify.max_user_instances=1280
 
 On personal machine (assuming osx): 
 
