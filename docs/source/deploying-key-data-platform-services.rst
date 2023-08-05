@@ -34,21 +34,23 @@ Deploy common services to cluster
 Deploy app services to cluster
 --------------------------------------
 
-First wave:
+First do:
 
 .. code-block:: console
 
-    cd ./dream-deploy
-    make deploy-kubeflow
-    make deploy-datahub-prereqs
-    make deploy-minio
+    cd ./dream-deploy && \
+    make deploy-kubeflow && \
+    make deploy-datahub-prereqs && \
 
-Second wave:
+Then:
 
 .. code-block:: console
 
-    make deploy-minio-default-tenant
-    make deploy-spark
     make deploy-datahub
 
+Optional services:
 
+.. code-block:: console
+
+    make deploy-minio (&& make deploy-minio-default-tenant)
+    make deploy-spark
